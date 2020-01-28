@@ -1,0 +1,47 @@
+baseurl                  = "https://example.com/"           # Your domain name. Must end with "/"
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Christopher Martino"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "home"                           # What to call the home page link
+    footerText           = "All Images &copy; 2020. Christopher Martino."
+
+# Metadata for Open Graph and Twitter
+    description          = "Artwork"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Call me Sam"
+
+[[params.mainMenu]]
+    text = "christopher martino"
+
+[[params.mainMenu]]
+    link = "/painting"
+    text = "some new paintings"
+
+[[params.mainMenu]]
+    link = "/painting2"
+    text = "disposition paintings"
+
+[[params.mainMenu]]
+    link = "/drawing"
+    text = "warm cool mist drawings"
+
+[[params.mainMenu]]
+    link = "/drawing2"
+    text = "drawings of crumpled things"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "about"
+
+[imaging]
+    quality = 75
